@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negative margin</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .outer {
+            background: green;
+            border: 2px solid red;
+            width: 50%;
+            height: 120px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .inner {
+            background: red;
+            width: 50px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">Title</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eum numquam optio, vitae eaque ut.
+    </div>
+</body>
+</html>
